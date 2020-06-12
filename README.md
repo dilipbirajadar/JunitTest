@@ -7,12 +7,16 @@ This lets you use popular mocking libraries, like Mockito.
 
  - Designed MainActivity.java
  - Designed EmailValidator.java
- - Designed EmailValidatorTest.java in Test directory. 
+ - Designed EmailValidatorTest.java in Test directory.
+ - Designed SharedPreferencesHelper.java
+ - Designed SharedPreferencesHelperTest.java in Test directory.
+ - It is checking validation of email and save email in sharedpreferences file.
 
 # Libraries & Dependency 
 - junit:junit:4.12
 - androidx.test.ext:junit:1.1.1
 - androidx.test.espresso:espresso-core:3.2.0
+- org.mockito:mockito-core:2.19.0
 
 # Setup the project in Android studio and run tests.
 
