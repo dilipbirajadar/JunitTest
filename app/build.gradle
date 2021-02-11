@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.dilip.junittest"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -34,4 +34,11 @@ dependencies {
 
     //Mokito dependancy added
     testImplementation 'org.mockito:mockito-core:3.3.3'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test:rules:1.3.0'
+    // Optional -- Hamcrest library
+    androidTestImplementation 'org.hamcrest:hamcrest-library:1.3'
+    // Optional -- UI testing with Espresso
+    // Optional -- UI testing with UI Automator
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
 }
